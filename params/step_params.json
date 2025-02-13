@@ -1,0 +1,20 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"user",
+        "pipeline_name":"facemask_classification_rest",
+        "zone_name":"test"
+    },
+    "step_params": {},
+    "substeps_params":
+    [
+        {
+            "substep_name":"data_load.ipynb",
+            "substep_params":
+            {
+                "facemask_datasets_url": "/raw/facemask_datasets/facemask_detection/face-mask-detection.tar"         
+            }
+        }
+    ]
+}
+
